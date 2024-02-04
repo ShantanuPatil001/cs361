@@ -18,4 +18,12 @@ abstract class GraphicObject {
 
 	abstract void draw();
 
+	/**
+	 * @return true if this and obj have the same values for
+	 * centerX, centerY and radius
+	 */
+	public boolean equals(Circle obj) {
+		return false;
+	}
+
 }
